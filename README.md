@@ -1,5 +1,7 @@
 ## Summary: Predicting customer revenue with Google Analytics data
 
+Click [here](https://nbviewer.jupyter.org/github/lethnam/predicting_customer_revenues_with_GoogleAnalystics_Kaggledata/blob/master/ga_kaggle.ipynb) to see the codes + interactive plots
+
 The data come from [a Kaggle competition](https://www.kaggle.com/c/ga-customer-revenue-prediction). The objective is to predict the transaction revenue per customer, given a set of indicators from the GStore. In this notebook,
 
 1. I first check and transform the data to gather all the necessary predictors
