@@ -10,6 +10,6 @@ The data come from [a Kaggle competition](https://www.kaggle.com/c/ga-customer-r
     - First, try to classify buyers vs. non-buyers. Non-buyers obviously will give 0 revenue. Here, I compare the classifying accuracy scores with and without randomly under-sampling to balance out the sample.
     - Second, given the sample of only the actual buyers, using regression models to predict the revenue.
     
-    For both classification and regression, I will compare the performances of the models: Support Vector Machine, Logistic/Linear Regression, Decision Tree, Random Forest, AdaBoost with Decision Tree, Adaboost with Random Forest, and Extreme Gradient Boosting library XGBoost.
+    For both classification and regression, I will compare the performances of the models: Support Vector Machine, Logistic/Linear Regression, Decision Tree, Random Forest, AdaBoost with Decision Tree, Adaboost with Random Forest, Extreme Gradient Boosting library XGBoost, and Neural Networks.
     
 In the end, XGBoost gives the best performances in both classification (with the re-balanced under-sampling train sample) and regression.
